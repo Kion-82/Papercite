@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# 密钥：只提交 .env.example
+.env
+
+# 数据：有版权的论文和生成的索引都不进 git
+data/papers/*
+!data/papers/.gitkeep
+data/index/
+
+# 实验记录
+mlruns/
+
+# 系统 / 编辑器
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
