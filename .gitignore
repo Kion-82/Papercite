@@ -3,19 +3,20 @@ __pycache__/
 *.py[cod]
 .venv/
 .pytest_cache/
-
-# 密钥：只提交 .env.example
+ 
+# Secrets: only .env.example is committed
 .env
-
-# 数据：有版权的论文和生成的索引都不进 git
+ 
+# Data: copyrighted papers, text parsed from them, and generated indexes stay out of git
 data/papers/*
 !data/papers/.gitkeep
+data/parsed/
 data/index/
-
-# 实验记录
+ 
+# Experiment tracking
 mlruns/
-
-# 系统 / 编辑器
+ 
+# OS / editor
 Thumbs.db
 .DS_Store
 .vscode/
