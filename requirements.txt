@@ -1,3 +1,6 @@
 pdfminer.six
 python-dotenv
 pytest
+numpy
+rank-bm25
+sentence-transformers
